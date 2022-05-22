@@ -11,6 +11,7 @@ public class Luminosity implements Command{
     }
     @Override
     public void execute(){
-         logger.info("la nueva luminosidad es: "+luminosity);
+         String s= "la nueva luminosidad es: "+luminosity;
+         logger.info(s);
     }
 }

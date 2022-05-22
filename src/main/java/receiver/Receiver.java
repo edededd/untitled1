@@ -4,7 +4,6 @@ public class Receiver{
 
     private Receiver remoteControl;
     private boolean state;
-    private double luminosity;
 
     public Receiver getInstance(){
         if(remoteControl == null){
